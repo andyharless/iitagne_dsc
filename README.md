@@ -1,1 +1,1 @@
-# iitagne_dsc
+This is my solution that tied for first place in the [IITAGNE](https://www.iitagne.org/) Data Science Challenge in Cambridge, MA on 20190316.  The predictions scored r=0.12, which was the highest prediction score, compared to the 2nd highest at around 0.07.
