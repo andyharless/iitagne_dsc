@@ -1,1 +1,3 @@
 This is my solution that tied for first place in the [IITAGNE](https://www.iitagne.org/) Data Science Challenge in Cambridge, MA on 20190316.  The predictions scored r=0.12, which was the highest prediction score, compared to the 2nd highest at around 0.07.
+
+(Looking at the code afterward, I realized there was a bug: I used 3 different models of the same type, but I forgot to reset all the hyperparameters after validation, so the first model was actually the third model, but with fewer boosting rounds.  It turns out that the bug seems to have helped the results slightly: maybe it prevented me overfitting the validation.  See the "post_mortem" file.)
